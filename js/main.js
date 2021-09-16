@@ -11,11 +11,10 @@ const app = new Vue (
         methods: {
             highlight: function() {
                 if(this.highlighted == "off") {
-                    this.highlighted == "highlighted";
+                    this.highlighted = "highlighted";
                 } else {
-                    this.highlighted == "off";
+                    this.highlighted = "off";
                 }
-                return this.highlighted;
             },
         }
     }
